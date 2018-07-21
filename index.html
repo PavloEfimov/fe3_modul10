@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container">
+                <form class="search-form">
+                    <div>
+                    <p>текущий список всех пользователей </p>
+                  <button class="mdc-btn js-get" type="submit">get</button>
+                </div>
+                <div>
+                  <p>пользователь с переданным id</p>
+                  <input class="js-user-id" type="text" name="country" placeholder="Enter user id">
+                  <button class="mdc-btn js-id" type="submit">get By Id</button>
+                </div>
+                <div>
+                  <p>записать/обновить юзера с полями name и age</p>
+                  <input type="text" class="js-add-name" name="country" placeholder="Enter user name">
+                  <input type="text" class="js-add-age" name="country" placeholder="Enter user age">
+                  <input type="text" class="js-upd-id" name="country" placeholder="Enter user ID for updating">
+                  <button class="mdc-btn js-add" type="submit">add By Name_Age</button>
+                  <button class="mdc-btn update js-update" type="submit">update By Name_Age</button>
+                </div>
+                <div>
+                  <p>удалить юзера по указанному id</p>
+                  <input type="text" class="js-remove-id" name="country" placeholder="Remove user by id">
+                  <button class="mdc-btn js-del" type="submit">delete By Id</button>
+                </div>
+                </form>
+                <p class="result"></p>
+              </div>
+    <script src="main_10.js"></script>
+</body>
+</html>
